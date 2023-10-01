@@ -2,7 +2,7 @@
 <html lang="en-ca">
   <head>
     <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <title>Save the world</title>
 
     <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
@@ -18,43 +18,169 @@
     doesn't look super awful -->
     <!-- Ignore everything in the <style> tag for now -->
     <!-- We will learn about CSS later in the course -->
-    <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
+
+    <link rel="stylesheet" href="css style sheet.css"/>
+
   </head>
   <body>
     <!--
 
       LIST ANY CITATIONS HERE
+        Images
+        * A Earth logo image from : https://parspng.com/en/images/png-earth-logo/
+        * B 
 
-        * A
-        * B
-
-    -->
-
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+        Water pollution
+        * A https://www.unwater.org/water-facts/water-quality-and-wastewater
+        * B http://www.sdg6data.org/en
 
     -->
+    <header>
 
-    <h1>Assignment 01 - To Be Completed</h1>
+      <h2 class="left">The blues are being polluted.</h2>
+
+      <img class="logo" src="/images/earthLogo.png" alt="Earth logo" />
+
+      <div class="nav-Bar">
+        <ul>
+          <li class="nav-link"><a class="nav-link-text" href="#WaterPollution">Water Pollution</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#Why and How">Green House Effect</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#CallToAction">Call to action</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#Contact">Contact us</a></li>
+        </ul>     
+      </div>
+
+    </header>
+
+
+
+    <main>
+
+      <div class="heroImage">
+        <div class="heroText1">
+          <!-- <img src="images/water pollution 1.jpg"> -->
+          <h1>Serious water problem</h1>
+        </div>
+        <div class="heroText2">
+          <p>Save the planet!</p>
+        </div>
+        
+      </div> 
+        
+      <br>
+
+      <section id="WaterPollution"  class="BlueBox">
+        <h2>Water Pollution</h2>
+        <h3>
+          Did you know that only
+          <a href="https://www.unwater.org/water-facts/water-quality-and-wastewater">40% of water </a>
+          on the earth are in a safe condition?
+        </h3>
+        
+        </a>
+        <p>Also there are only 73% people are using safe drinking water. Which means there are at least 5840000000 people are NOT drinking safe. 
+          
+        </p> 
+      </section>
+
+      <br>
+
+      <section id="Why and How" class="GreenBox">
+        <h2>Why and How</h2>
+        <h3>
+          This circumstance is mainly due to:
+        </h4>
+        <ol>
+          <li>City water waste</li>
+            <ul>
+              <li>More and more ater waste in Population growth</li>
+              <li>Industrial waste</li>
+            </ul>
+          <li>Negletcted waste water management</li>
+            <ul>
+              <li>Industrial waste water</li>
+              <li>In many poor cities, waste water are not being process in right way.</li>
+            </ul>
+        </ol>
+
+      </section>
+
+      <br>
+
+      <section id="CallToAction" class="AquaBox">
+        <h2>Call to Action</h2>
+        <h3>So what can we do?</h3>
+        <ol>
+          <li>Use less water daily with only the necessities.</li>
+          <li>Reduce the needs of Industrial one-time products (e.g. plastics bags)</li>
+          <li>Prevent water run offs.</li>
+        </ol>
+
+      </section>
+
+      <br>
+
+      <section id="Contact">
+
+        <form action="">
+          <fieldset class="fieldset-round">
+            <legend >Contact us if you wish to save the world.</legend>
+            <label for="name">Name</label>
+            <input 
+              type="text" 
+              id="name"
+              placeholder="A great name enters here"
+              maxlength="30"
+              autocomplete="name"
+            />
+
+            <br>
+
+            <label for="email">Email</label>
+            <input 
+              type="text" 
+              id="email"
+              placeholder="A Good email enters here"
+             />
+
+            <fieldset class="fieldset-round">
+              <legend>Your message</legend>
+              <label for="message">message</label>
+
+              <textarea 
+                rows="10" 
+                id="message" 
+                placeholder="Lorem ipsum"
+              ></textarea>
+             
+            </fieldset>
+
+            <button class="buttons">
+              submit !!
+            </button>
+
+          </fieldset>
+        </form>
+      </section>
+
+    </main>
+
+    <br>
+
+    <footer>
+      <h2 class="left">The blues are being polluted.</h2>
+      <img class="logo" src="/images/earthLogo.png" alt="Earth logo" />
+      <nav>
+        <ul>
+          <li class="nav-link"><a class="nav-link-text" href="#WaterPollution">Water Pollution</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#Why and How">Green House Effect</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#CallToAction">Call to action</a></li>
+          <li class="nav-link"><a class="nav-link-text" href="#Contact">Contact us</a></li>
+        </ul>     
+      </nav>
+      <p>Copyroght © 2023 </p>
+
+    </footer>
+    
   </body>
 </html>
