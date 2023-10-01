@@ -44,17 +44,15 @@
 
       .heroImage {
         background-image: url("images/water pollution 1.jpg");
-        width: 1105px;
-        height: 751px;
-        border-radius: 25px;
-        margin-left: auto;
-        margin-right: auto;
+        width: inherit;
+        height: 350px;
+        /* border-radius: 25px; */
+
       }
 
       .heroText1 {
         text-align: center;
         color: aliceblue;
-        padding: 0% 1% 55% 1%;
       }
 
       .heroText2 {
