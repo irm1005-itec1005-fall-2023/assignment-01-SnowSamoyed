@@ -1,0 +1,101 @@
+  /*
+        These styles set the font, font-size, and add a
+        little bit of space between lines
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      /*
+        These styles make sure that any super wide images
+        don't overflow the page width
+      */
+      .logo {
+        width: 100px;
+        display: block;
+        margin-left: 0%;
+        margin-right: auto;
+      }
+      
+      .left {
+        text-align: left;
+      }
+      
+      .nav-link {
+        background: linear-gradient(0.25turn,#6bbbfc,#976e39);
+        max-width: 5cm;
+        padding: 3px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+      }
+
+      .nav-link-text {
+        text-align: left;
+        color: rgb(241, 247, 253);
+      }
+
+      ul {
+        list-style: none;
+        text-align: left;
+        /* background-color: rgb(70, 209, 209); */
+      }
+      
+
+      .heroImage {
+        background-image: url("images/water pollution 1.jpg");
+        width: inherit;
+        height: 350px;
+        /* border-radius: 25px; */
+
+      }
+
+      .heroText1 {
+        text-align: center;
+        color: aliceblue;
+      }
+
+      .heroText2 {
+        text-align: center;
+        color: azure;
+      }
+
+      img {
+        width: 700px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      
+      h2 {
+        text-align: center;
+      }
+    
+      
+      .BlueBox{
+        background-color: rgb(142, 197, 228);
+        border-radius: 25px;
+        padding: 3%;
+      }
+      .GreenBox{
+        background-color: rgb(180, 238, 166);
+        border-radius: 25px;
+        padding: 3%;
+      }
+      .AquaBox{
+        background-color: rgb(166, 238, 227);
+        border-radius: 25px;
+        padding: 3%;
+      }
+
+      .fieldset-round {
+        text-align: center;
+        border-radius: 25px;
+      }
+
+      .buttons {
+        border-radius: 25px;
+        background-color: rgb(166, 238, 227);
+
+      }
